@@ -31,3 +31,16 @@ help - lists a bunch of commands
 
 # Forking and Cloning
 
+To create a new repo in Github, navigate to your personal page and hit the plus button on the top right. Select "New Repository" from the dropdown menu, and then fill out the next page with the name of your new repo and determine wether it will be public or private as well as if it will have a built in README file.
+
+
+To fork from an existing repo, navigate to the source and hit the fork button on the top right. You might have to select your github username from a list of other users connected to the repo, but other than that, it really is that easy.
+
+
+To clone a repo, you have to first make sure that you are able to access your Github account from your command line. Then you have to use the git clone COPY-OF-LINK-HERE command to get the info onto your machine.
+
+
+You would fork a repo for many reasons. First off, it's easier and faster than trying to recreate it from scratch. Secondly, since forking makes a special version for you and leaves the original alone, it is a non-destructive method of working. If you screw up really bad and can't seem to fix it, you can always delete and go back to the original source for a fresh start.
+
+I struggled deleting and re-cloning after the initial clone. I had to look up a command for deleting directories with files already in them (I came up with rmdir -rf dirname). That feels like a pretty useful and time-saving command to memorize.
+
