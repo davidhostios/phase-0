@@ -1,6 +1,6 @@
 # Check out my Site Map - as simple as it may be, I am proud of how clean it looks
 
-![Site Map](Home/Desktop/Phase0/phase-0/week-2/imgs/site-map.png)
+![Site Map](phase-0/week-2/imgs/site-map.png "Dave's Site Map")
 
 # What are the 6 Phases of Web Design?
 
@@ -58,7 +58,7 @@ Good resources in this area include:
 
 This image is from a blog by Tommy Walker, talking about the voice one might use when writing to reach a certain demographic
 
-![Site Map](Home/Desktop/Phase0/phase-0/week-2/imgs/brandarch.gif)
+![Site Map](phase-0/week-2/imgs/brandarch.gif "Brand Archetypes")
 
 # What is the primary "action" the user should take when coming to your site? Do you want them to search for information, contact you, or see your portfolio? It's ok to have several actions at once, or different actions for different kinds of visitors.
 
