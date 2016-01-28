@@ -1,0 +1,3 @@
+# Wireframing
+While a Site Map can help you come up with the ideas that you need to include, etc., a WIREFRAME is the page composition of the design process. Pragmatic things like hierarchy are considerations in any compositional design process, but for the purpose of wireframing, the solution basically needs to stick to the elements and not include much stylization or color. 
+####If the solution doesn't work in black and white, it doesn't work at all. 
