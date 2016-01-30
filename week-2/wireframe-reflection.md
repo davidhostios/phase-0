@@ -33,8 +33,8 @@ I did one I liked right away for the blog page, but I did
 3 versions of the index page because I just wasn't
 happy with it at first. 
 
-#What questions did you ask during this challenge? What
-resources did you find to help you answer them?
+#What questions did you ask during this challenge? 
+#What resources did you find to help you answer them?
 I have a background in Graphic Design, so this challenge
 was really comfortable for me. 
 I asked myself what I had to work with for starters. I
@@ -53,8 +53,7 @@ I have been using Balsamiq for the actual wireframes, and
 I really like it. Balsamiq makes it really easy to do
 different versions on the fly for comparison. 
 
-#Which parts of the challenge did you enjoy and which
-parts did you find tedious?
+#Which parts of the challenge did you enjoy and which parts did you find tedious?
 I pretty much enjoyed this from start to finish. I 
 like playing with colors, sketching, and doing layouts
 (wireframes). I feel like a person would really be
