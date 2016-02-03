@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Title Goes Here</title>
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+		<header></header>
+		<h2>Article Header</h2>
+		<article>
+        WHAT ARE WE DOING?
+        What we are doing is using the command line to set up and use a parallel set of files on the internet that comprise some particular type of code project. This one 
+        (that you're reading now) is a website in HTML. 
+        WHAT ARE THE BENEFITS OF VERSION CONTROL?
+        We do this by using a system called Git that works in conjunction with Github (online) to form what's called a Version Control System. Version control is a non-destructive method of working on a project, which means that if you can learn to apply it correctly, once you get a working product, you ought to be able to maintain its functionality while adding improvements indefinitely. If you're working on an Open Source Project, chances are it's a product of a VCS. 
+        WHAT DOES OPEN SOURCE MEAN?
+        That's a good question. I'm glad you asked.
+        Open Source Projects are just a bunch of files in one place to be free to everyone's access.
+        HOW DOES GIT HELP YOU KEEP TRACK OF CHANGES?
+        TRACK===>ADD===>COMMIT   
+        Each time you make a change to a file (hopefully working on your own branch - which is exactly what it sounds like - as not to disturb the master copy) Git will automatically be able to TRACK that something has changed.
+        The fact that a change is being tracked in no way means that it is saved.
+        To ADD changes to be COMMITTED means you use the 
+        git add "put the name of the file here - no quotes needed" 
+        command to tell Git "I'm happy with what I just did and I want to make sure that the next time I save, these changes are added."
+        To COMMIT your changes means to save that particular version of your project. It's like having save states on a video game. You can revert to the past few couple versions of commits in case you really screw up using 
+        git reset --soft HEAD^ (~HEAD3, ~HEAD4, etc. for incrementally older versions. Just plain HEAD is the current version)
+        Cool, right? I know, right?
+        WHY USE GITHUB TO STORE YOUR CODE?
+        Say you just rocked putting together a sweet blog post about what you learned this week and you want to make it available for others to clone to their systems and make their own changes from there. Where do you put it to give the world access? That's where Github comes in.
+        The various files and directories that comprise your project also live on Github, where the best-functioning version of your project lives. The version on Github should always work because you can test and add only the files that worked on a cloned version before integrating them into the actual project.
+        You make changes to a project using Sublime and the terminal command line ---> Git tracks changes added and committed ---> Github houses the best working version of the project.
+        MIND=BLOWN
+        P.S. I found a sweet cheatsheet full of useful git commands at https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+		</article>
+		<h2>Section Article</h2>
+		<section></section>
+		<footer></footer>
+
+	</body>
+</html>
