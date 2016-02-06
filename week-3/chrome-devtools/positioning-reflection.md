@@ -1,4 +1,4 @@
-[3.1](/imgs/3.1.png"Example 3.1")
+[3.1](/3.1.png"Example 3.1")
 
 [3.2](imgs/3.2.png"Example 3.2")
 
