@@ -1,3 +1,153 @@
-html {
-  background-color: red;
+/*What is important to know when linking an external file 
+(like a stylesheet) to an HTML file?
+
+You have to know the correct path to the external file, 
+in this case a css file, and use
+
+<link rel="stylesheet" type="text/css" href"path-to-file.css">
+
+which is a self-closing tag that says,"This is the 
+relationship, type, and exact location of the stylesheet."
+
+Any deviation in syntax will make it not work except 
+that you can close the tag with />, but that is not 
+necessary for HTML5.
+
+What tricks did you use to help you with positioning?
+
+I actually went back after the pairing session to 
+manipulate it a little bit more in regards to positioning.
+
+We used divs to create each side of the main content
+and then added display, position, margin, and border properties
+to move them in the correct positions as necessary. 
+
+How hard was it to get the site as you wanted it?
+
+
+What CSS did you use to modify the element style (like 
+size, color, etc.)?
+
+Color, text-align, font-size, height, width, background-color,
+margin, padding, float, display, clear, and position were
+all useful in this exercise.
+
+Did you modify the HTML to include classes or ids? If so,
+which did you choose and why? If you didn't, how would you 
+know which one to add to your HTML?
+
+We did use a number of ids (ex. #id) and classes (ex. .class)
+as visible below. The idea we were attempting to use 
+in determining which one to use was this: Would we use 
+this element as a part of a page template or is this specific 
+to this page? In that manner, we determined that things like 
+text color, capitalization in the header, the setup of the 
+left and right columns in the main content of the page, 
+and the format of the bottom should all be classes. Then 
+the other attributes we wanted to effect in that manner
+were kind of by default ids.
+
+When you compared your site to the actual code base, 
+which do you think had cleaner code that followed best 
+practices and why?
+
+I honestly liked our end result better than the original
+for several reasons. The first was that they appeared
+to have put that page together in an outdated versionof HTML. You 
+can tell this in the code (and obviously at the top of the page
+where it states that it is a HTML 4 document type)
+by their use of outdated tags like <hr>. I found it 
+curious that in many cases, <p> tags were used in the original
+as formatting tools within the HTML, rather than adding
+padding or margin wiithin their stylesheet.
+Many also had alignment styling in the HTML also. 
+*/
+
+/*classes*/
+.textcolor {
+	color: #000080;
+	text-align: center;
+}
+
+.cap {
+	font-size: 2em;
+}
+
+.line {
+	height: 3px;
+	width: 100%;
+	background-color: gray;
+}
+
+.description {
+	color: #000080;
+	font-size: 50%;
+}
+
+.leftside {
+	float: left;
+	display: inline-block;
+	padding-left: 50px;
+	width: 40%;
+	position: absolute;
+}
+
+.rightside {
+	float: right;
+    display: inline-block;
+	padding-bottom: 50px;
+	width: 45%;
+	position: relative;
+}
+
+.bottom {
+	color: #000080;
+	clear: both;
+}
+
+.pad {
+	padding: 20px;
+}
+
+/*ids*/
+#maincontent {
+	margin: center;
+}
+
+#small {
+	font-size: 50%;
+}
+
+#center {
+	text-align: center;
+	font-size: 75%;
+	padding-bottom: 20px;
+}
+
+#footer {
+	color: #000080;
+	font-size: 25%;
+}
+/*semantic elements*/
+a {
+	color: #800080;
+}
+
+a:visited {
+	color: #FF0000;
+}
+
+h1 {
+	margin: 0;
+}
+
+h4 {
+	margin: 0;
+}
+h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+li {
+	padding: 12px;
 }
