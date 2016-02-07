@@ -1,4 +1,4 @@
-[3.1](/imgs/3.1/"Example 3.1")
+[3.1](chrome-devtools/imgs/3.1/"Example 3.1")
 
 [3.2](imgs/3.2 "Example 3.2")
 
