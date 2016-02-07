@@ -1,22 +1,22 @@
-![3.1](imgs/3.1/"Example 3.1")
+![3.1](imgs/3.1.png/"Example 3.1")
 
-![3.2](imgs/3.2 "Example 3.2")
+![3.2](imgs/3.2.png "Example 3.2")
 
-![3.3](imgs/3.3"Example 3.3")
+![3.3](imgs/3.3.png"Example 3.3")
 
-![3.4](imgs/3.4"Example 3.4")
+![3.4](imgs/3.4.png"Example 3.4")
 
-![3.5](imgs/3.5"Example 3.5")
+![3.5](imgs/3.5.png"Example 3.5")
 
-![3.6](imgs/3.6"Example 3.6")
+![3.6](imgs/3.6.png"Example 3.6")
 
-![3.7](imgs/3.7"Example 3.7")
+![3.7](imgs/3.7.png"Example 3.7")
 
-![3.8](imgs/3.8"Example 3.8")
+![3.8](imgs/3.8.png"Example 3.8")
 
-![3.9](imgs/3.9"Example 3.9")
+![3.9](imgs/3.9.png"Example 3.9")
 
-![3.9.1](imgs/3.9.1"Example 3.9.1")
+![3.9.1](imgs/3.9.1.png"Example 3.9.1")
 
 #How can you use Chrome's DevTools inspector to help you format or position elements?
 
