@@ -1,6 +1,6 @@
 [3.1](/3.1.png"Example 3.1")
 
-[3.2](imgs/3.2.png"Example 3.2")
+[3.2](imgs/3.2.png "Example 3.2")
 
 [3.3](imgs/3.3.png"Example 3.3")
 
@@ -24,7 +24,10 @@ Chrome DevTools is a powerful but simple Document
 Object Model that puts both the html and stylesheet
 (in this case, css) in your hands at the same time. 
 
-It highlights the object and shows the user a physical 
+DevTools allows a developer to manipulate the HTML and css
+in real time. 
+
+It highlights an object and shows the user a physical 
 model of which parts are the padding, margin, and border. 
 That makes it much easier to manipulate the size or
 shape of an object and makes sure it works before you add
