@@ -1,6 +1,10 @@
 #Solution Below
 
+first_name = "David"
+last_name = "Hostios"
+age = 30
 
+puts "Hello! My name is #{first_name} #{last_name} and I am #{age} years old!"
 
 
 # RSpec Tests. They are included in this file 
@@ -9,10 +13,6 @@
 # run these files as a separate file per normal 
 # operation, the local variable checks will 
 # return nil.
-
-first_name = "David"
-last_name = "Hostios"
-age = 30
 
 
 
