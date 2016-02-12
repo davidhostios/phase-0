@@ -13,9 +13,8 @@ num = gets.chomp.to_i
 puts "I mean that's great and all, but you know what's better than #{num}?"
 puts "#{num + 1}. Shut the front door..."
 
-![address](https://github.com/davidhostios/phase-0/blob/master/week-4/address/my_solution.rb)
-
-![math](https://github.com/davidhostios/phase-0/blob/master/week-4/math/my_solution.rb)
+#https://github.com/davidhostios/phase-0/blob/master/week-4/address/my_solution.rb
+#https://github.com/davidhostios/phase-0/blob/master/week-4/math/my_solution.rb
 
 # How do you define a local variable?
 
