@@ -2,7 +2,7 @@
 # Math Methods
 
 # I worked on this challenge [by myself, with: ].
-
+by myself
 
 # Your Solution Below
 
