@@ -61,7 +61,7 @@ puts "#{num + 1}. Shut the front door..."
 # Type:
 
 
-# rspec name_of_rspec_file.
+# rspec name_of_rspec_file.rb
 
 # What was confusing about this material? What made sense?
 
