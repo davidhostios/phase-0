@@ -15,6 +15,7 @@ puts "#{num + 1}. Shut the front door..."
 
 #https://github.com/davidhostios/phase-0/blob/master/week-4/address/my_solution.rb
 #https://github.com/davidhostios/phase-0/blob/master/week-4/math/my_solution.rb
+#https://github.com/davidhostios/phase-0/blob/master/week-4/define-method/my_solution.rb
 
 # How do you define a local variable?
 
