@@ -3,54 +3,47 @@
 
 # I spent [] hours on this challenge.
 
-i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
-my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
+# i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 
-# ok - if the array contains a given letter, keep that element
-# and discard any other array elements that do not
-# include the given argument parameter. 
+
+
+my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
+# my_family_pets_ages.has_value?
+# if my_family_pets_ages.has_value?()
+#     puts my_family_pets_ages
+# end
+# p my_family_pets_ages.fetch_keys(6)
+# my_family_pets_ages.each_key { |key, v| p key.to_a  }
+
+# Define the new method with 2 parameters, source
+# (an array) and thing_to_find (a character - 
+# in this case the letters "t" and "a") - 
+# IF the array (source) passed as the first argument includes
+# elements with the character passed as the second argument
+# (thing_to_find), somehow combine just those elements
+# into a new array
 
 # Person 1's solution
-# def my_array_finding_method(source, thing_to_find)
-#   # letter = my_array_finding_method(n, 1)
-#   x = source
-#   y = thing_to_find
-#   my_array_finding_method.each do |x, y| 
-#     puts y if y.include?(y) 
-    
-#   # else source.grep(/a/) do |source|
-#   #       source
-#   #   end
-# end
-# end
-def my_array_finding_method(source, thing_to_find)
-    if source.include?(thing_to_find)
-        source.each { |source| puts source} 
 
-    end
+def my_array_finding_method(source, thing_to_find)
+  source.select { |word| word.to_s.include? thing_to_find }
 end
 
+# p my_array_finding_method(i_want_pets, "t")
 
+def my_hash_finding_method(source, thing_to_find)
+  new_array = []
+  source.each do |key, value|
+    if value == thing_to_find
+        new_array.push key
+    end
+  end
+  p new_array
+end
 
-    # # counter = 0 
-    # thing_to_find = array[0]
-    # if array.include?(thing_to_find)
-    #   puts "There is a t in there!"
-    
-    # else 
-    #   puts "Letter not found!"      
-      
-    # end
-
-
-
-# def my_hash_finding_method(source, thing_to_find)
-#     if 
-      
-#     end
-
-# end
-
+ 
+# p my_hash_finding_method(my_family_pets_ages, 3)
+# 
 # # Identify and describe the Ruby method(s) you implemented.
 # #
 #
