@@ -1,19 +1,14 @@
 
 # Research Methods
 
-# I spent [] hours on this challenge.
+# I spent [4] hours on this challenge.
 
-# i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
+i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 
 
 
 my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
-# my_family_pets_ages.has_value?
-# if my_family_pets_ages.has_value?()
-#     puts my_family_pets_ages
-# end
-# p my_family_pets_ages.fetch_keys(6)
-# my_family_pets_ages.each_key { |key, v| p key.to_a  }
+
 
 # Define the new method with 2 parameters, source
 # (an array) and thing_to_find (a character - 
