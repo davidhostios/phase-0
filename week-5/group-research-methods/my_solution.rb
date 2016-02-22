@@ -37,10 +37,21 @@ def my_hash_finding_method(source, thing_to_find)
 end
 
  
-# p my_hash_finding_method(my_family_pets_ages, 3)
-# 
-# # Identify and describe the Ruby method(s) you implemented.
-# #
+ 
+# Identify and describe the Ruby method(s) you implemented.
+# I will focus on the hash method because frankly, I got so turned around
+# on this challenge that I barely understand the array method. 
+# The hash method iterates through each element of the 'source'
+# hash and compares the value to the argument 'thing_to_find.'
+# if they are = , it pushes the key of that value to a new array. 
+
+
+# Release 3: Reflect!
+# What did you learn about researching and explaining your research to others?
 #
+# I learned that I tend to complicate matters trying to implement 
+# methods that may be 'above my pay-grade.' I learned that I need to focus 
+# on using the simplest logic to find my solutions. 
 #
+
 
