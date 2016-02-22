@@ -43,12 +43,9 @@ $grocery_list = Hash.new
 
 def create_list(list, quantity = 1)
   list_ary = list.split(" ")
-  
-
   list_ary.each do |key|
   $grocery_list[key] = quantity
   end
-
   print_list
 end
 
