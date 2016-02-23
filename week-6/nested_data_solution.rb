@@ -52,7 +52,10 @@ end
 # Bonus:
 
 startup_names = ["bit", ["find", "fast", ["optimize", "scope"]]]
-generator = ['ly']
+
+# Refactored * We couldn't really get an initial solution to work here
+# because nesting each statements within one another was tough
+# So we used flatten
 
 fixed = startup_names.flatten
 fixed.each do |element|
