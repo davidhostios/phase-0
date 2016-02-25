@@ -53,9 +53,7 @@ end
 
 startup_names = ["bit", ["find", "fast", ["optimize", "scope"]]]
 
-# Refactored * We couldn't really get an initial solution to work here
-# because nesting each statements within one another was tough
-# So we used flatten
+# Refactored * This was our first working solution
 
 fixed = startup_names.flatten
 fixed.each do |element|
