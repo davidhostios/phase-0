@@ -10,82 +10,26 @@
 # Output:
 # Steps:
 
-# class NameData
-# 	attr_accessor :name_data, :my_sentence
-
-# 	# def change_name=(name)
-# 	# 	@name = new_name
-# 	# end
-
-# 	def name_data
-# 		@name_data
-# 	end
- 
-
-# 	def my_sentence=(name_data)
-# 		return "Hello #{@name_data}! How wonderful to see you today!"
-# 	end
-# end
-
-# class Greetings
-	
-# 	# def initialize
-# 	# 	@name_data = "Dave"
-# 	# end
-
-# 	def puts_greeting
-# 		puts my_sentence.name_data
-# 	end
-# end
-
-# class NameData
-# 	attr_accessor :name_data
-	
-# 	def initialize 
-# 		@name = "Dave"
-# 	end
-# end
-
-# class Greetings
-# 	def initialize 
-# 		@name_data = NameData.new
-# 	end	
-
-# 	def greeting=(name_data)
-# 		puts "Hello #{@name_data}! You did it! Yay!"
-# 	end
-# end
-
-# greet = Greetings.new
-# greet.greeting
-
-# greet = Greetings.new
-# greet.name_data = "Dave"
-# p greet.puts_greeting
-
 class NameData
-
 	attr_reader :name
 	
 	def initialize 
 		@name = "Dave"
 	end
-
 end
 
 class Greetings
-
 	def initialize 
-		name = NameData.new
+		@name_data = NameData.new
 	end
 
 	def hello
-		puts "Hello, #{@name}! Yay, you did it!"
+		puts "Hello, #{@name_data.name}! Yay, you did it!"
 	end
 end
 
-p greet = Greetings.new
-
+greet = Greetings.new
+greet.hello
 
 # Reflection
 
