@@ -26,7 +26,7 @@ class Profile
   end
 end
 
-p instance_of_profile = Profile.new
+# p instance_of_profile = Profile.new
 
 # puts "--- printing age -----"
 # sleep 0.8
