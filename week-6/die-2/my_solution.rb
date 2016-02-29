@@ -61,4 +61,21 @@ p die.sides
 p die.roll
 
 
-# Reflection
+# # Reflection
+
+# What were the main differences between this die class and the last one you created in terms of implementation? Did you need to change much logic to get this to work?
+
+# Where the first exercise focused on making a random string of integers, this one
+# was a random letter. The logic remained the same, but some of the methods changed. 
+
+# What does this exercise teach you about making code that is easily changeable or modifiable? 
+
+# Often, well-written code logic can be recycled and repurposed to tackle other challenges. 
+
+# What new methods did you learn when working on this challenge, if any?
+
+# Sample was a new one - literally just returns a random element from an array.
+
+# What concepts about classes were you able to solidify in this challenge?
+
+# I was able to implement an attr_reader with much success in this one.
