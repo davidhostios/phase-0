@@ -60,7 +60,7 @@ class BingoBoard
     puts "Random Call: #{@letter}, #{@number}"
     puts "-----------------"
     p "B   I   N   G   O"
-    puts self.checker.map { |block| puts block.to_s }
+    puts self.checker.map! { |block| puts block.to_s }
     p "B   I   N   G   O"
   end
 end
@@ -105,7 +105,7 @@ class BingoBoard
     puts "Random Call: #{@letter}, #{@number}"
     puts "-----------------"
     p "B   I   N   G   O"
-    puts self.checker.map { |block| puts block.inspect }
+    puts self.checker.map! { |block| puts block.inspect }
     p "B   I   N   G   O"
   end
 end
