@@ -1,8 +1,8 @@
  // JavaScript Olympics
 
-// I paired [by myself, with:] on this challenge.
+// I paired [by myself, with: Danny Hwang] on this challenge.
 
-// This challenge took me [#] hours.
+// This challenge took me [1.5] hours.
 
 
 // Warm Up
@@ -64,3 +64,20 @@ console.log(michaelPhelps.constructor === Athlete)
 console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps.quote)
 
 // Reflection
+
+/*
+What JavaScript knowledge did you solidify in this challenge?
+
+This challenge helped me to understand the constructor methods much better, and was also just a good practice getting more familiar with the language.
+
+What are constructor functions?
+
+Constructor Functions are empty objects that can have properties and methods added to them.
+
+How are constructors different from Ruby classes (in your research)?
+
+Ruby allows attributes access rights to change and set, where JavaScript (at least to my knowledge) does not allow us to do that in the same way. Javascripts “this” argument refers to its own attributes tha can be changed.
+
+
+
+*/
