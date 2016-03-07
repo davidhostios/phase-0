@@ -4,25 +4,28 @@
 # We spent [#] hours on this challenge.
 
 # EXPLANATION OF require_relative
-#
-#
+# What does it do? How does it work? How does it differ from require
+# the path needs to be specified from current location - in this case they are in same
 require_relative 'state_data'
 
 class VirusPredictor
 
+# initilaze the arguments in the class - create instance variables of each arg
   def initialize(state_of_origin, population_density, population)
     @state = state_of_origin
     @population = population
     @population_density = population_density
   end
-
+# a method with two method calls that runs predicted deaths and speed of spread
   def virus_effects
     predicted_deaths(@population_density, @population, @state)
     speed_of_spread(@population_density, @state)
   end
-
+# means that the method following this command cannot be called outside of the class. 
+# make every method private unless necessary to NOT be private
   private
 
+# defines method that predicts number of deaths based on population density
   def predicted_deaths(population_density, population, state)
     # predicted deaths is solely based on population density
     if @population_density >= 200
@@ -41,6 +44,7 @@ class VirusPredictor
 
   end
 
+# defines a method that takes two arg (density, state) to calculate the speed of disease spread
   def speed_of_spread(population_density, state) #in months
     # We are still perfecting our formula here. The speed is also affected
     # by additional factors we haven't added into this functionality.
@@ -69,18 +73,29 @@ end
 # DRIVER CODE
  # initialize VirusPredictor for each state
 
+# I need an each statement that iterates through STATE_DATA that is a new 
+# instance of class VirusPredictor.new 
+# input 
+# should output all states info formatted.
 
-alabama = VirusPredictor.new("Alabama", STATE_DATA["Alabama"][:population_density], STATE_DATA["Alabama"][:population])
-alabama.virus_effects
+STATE_DATA.each do |state, info|
+states = VirusPredictor.new(state, info[:population_density], info[:population])
+states.virus_effects
+end
 
-jersey = VirusPredictor.new("New Jersey", STATE_DATA["New Jersey"][:population_density], STATE_DATA["New Jersey"][:population])
-jersey.virus_effects
 
-california = VirusPredictor.new("California", STATE_DATA["California"][:population_density], STATE_DATA["California"][:population])
-california.virus_effects
 
-alaska = VirusPredictor.new("Alaska", STATE_DATA["Alaska"][:population_density], STATE_DATA["Alaska"][:population])
-alaska.virus_effects
+# alabama = VirusPredictor.new("Alabama", STATE_DATA["Alabama"][:population_density], STATE_DATA["Alabama"][:population])
+# alabama.virus_effects
+
+# jersey = VirusPredictor.new("New Jersey", STATE_DATA["New Jersey"][:population_density], STATE_DATA["New Jersey"][:population])
+# jersey.virus_effects
+
+# california = VirusPredictor.new("California", STATE_DATA["California"][:population_density], STATE_DATA["California"][:population])
+# california.virus_effects
+
+# alaska = VirusPredictor.new("Alaska", STATE_DATA["Alaska"][:population_density], STATE_DATA["Alaska"][:population])
+# alaska.virus_effects
 
 #=======================================================================
 # Reflection Section
@@ -93,4 +108,4 @@ When refactoring virus_effects, what stood out to you about the variables, if an
 What concept did you most solidify in this challenge?
 
   
-end
+=end
