@@ -1,7 +1,7 @@
 // Separate Numbers with Commas in JavaScript **Pairing Challenge**
 
 
-// I worked on this challenge with: Dan "the man" Homer
+// I worked on this challenge with: Dan Homer
 
 // Pseudocode
 
@@ -32,7 +32,6 @@ var commas = function(integer) {
   }
   return returnValue.join("");
  }
- // function comma()
 
 console.log(commas(123456));
 
@@ -50,3 +49,26 @@ console.log(commas(123456));
 
 // Reflection
 
+/*
+
+What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+
+I tried to use the same logic because that is how my brain naturally thinks. 
+Although in doing so I found that not everything I wanted to do was possible in Javascript, 
+like accessing an array with a negative index number.
+
+What did you learn about iterating over arrays in JavaScript?
+
+It can be somewhat more complicated than in Ruby because Ruby has all kinds of built-in methods that can be helpful.
+
+What was different about solving this problem in JavaScript?
+
+It actually seemed a little easier than doing the same in Ruby because without all the extra methods and 'syntactic sugar' 
+we just focused on getting a good answer. We did get momentarily hung up on the additional comma when there were only 6 digits.
+
+
+What built-in methods did you find to incorporate in your refactored solution?
+
+We sort of refactored as we went on this one - we found a bunch of good methods like split, join, and unshift.
+
+*/
