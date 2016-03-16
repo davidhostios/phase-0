@@ -2,21 +2,8 @@
 <!-- Link to images below -->
 <!-- ![Alt text](/path/to/img.jpg "Optional title") -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![One-to-One](imgs/onetoone.png "One-to-One")
+![Many-to-Many](imgs/manytomany.png "Many-to-Many")
 
 *** Reflection ***
 ------------------
@@ -43,9 +30,11 @@ A 3rd table is often used in a many-to-many database schema to show such a relat
 
 When would you use a many-to-many database? (Think generally, not in terms of the example you created).
 
-
+When a single fact can relate to many database tables. 
 
 What is confusing about database schemas? What makes sense?
+
+Database schemas are basically just like charts of how different tables of data relate to one another. It can be a little tricky to consider how they may relate when there are multiple tables - of which there can be many many. I think the best practice would be to just make a whole bunch and think about how they will work together in a real world challenge scenario. 
 
 
 
