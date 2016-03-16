@@ -2,8 +2,8 @@
 <!-- Link to images below -->
 <!-- ![Alt text](/path/to/img.jpg "Optional title") -->
 
-![One-to-One](/imgs/onetoone.png "One-to-One")
-![Many-to-Many](/imgs/manytomany.png "Many-to-Many")
+![One-to-One](imgs/onetoone.png "One-to-One")
+![Many-to-Many](imgs/manytomany.png "Many-to-Many")
 
 *** Reflection ***
 ------------------
